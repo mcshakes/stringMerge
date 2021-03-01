@@ -23,9 +23,6 @@ describe('merge two different strings', () => {
     let a = "abcdefgh"
     let b = "st"
 
-    // undefined is squashed during the join function so this works
-    // without checking for undefined in for loop
-
     expect(stringMerge(a,b)).toEqual('asbtcdefgh');
   });
 });
